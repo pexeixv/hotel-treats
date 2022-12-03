@@ -1,0 +1,32 @@
+<section>
+    <div class="container mx-auto px-5  pt-12">
+
+
+        <div class="grid lg:grid-cols-3 gap-8">
+
+            {% for link in quicklinks %}
+
+            <div class="bg-neutral-100  p-8 rounded-lg max-h-48 lg:max-h-fit overflow-hidden  after:content-[''] after:w-full lg:after:hidden after:bg-gradient-to-t after:from-neutral-100 to-neutral-100/80 after:absolute relative after:bottom-0 after:h-2/3 after:left-0">
+                <div class="flex justify-between items-center">
+                    <h3 class="font-bold text-2xl">
+                        {{link.name}}
+                    </h3>
+                    <span class="lg:hidden text-sm">See all</span>
+                </div>
+                <div
+                    class="grid grid-cols-2 gap-4 mt-4 text-sm">
+                    {% for route in link.links %}
+                    <a href="{{route.route}}">{{route.title}}</a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+</section>
+
+

@@ -1,0 +1,233 @@
+[
+    {
+        "name": "Categories",
+        "links": [
+            {
+                "title": "Gift Ideas",
+                "route": "#"
+            },
+            {
+                "title": "Romantic Escapes",
+                "route": "#"
+            },
+            {
+                "title": "Spa & Dining",
+                "route": "#"
+            },
+            {
+                "title": "Dining",
+                "route": "#"
+            },
+            {
+                "title": "Spa & Wellness",
+                "route": "#"
+            },
+            {
+                "title": "Offers for Local Residents",
+                "route": "#"
+            },
+            {
+                "title": "Golf",
+                "route": "#"
+            },
+            {
+                "title": "For Families",
+                "route": "#"
+            },
+            {
+                "title": "Day Pass",
+                "route": "#"
+            },
+            {
+                "title": "Holiday",
+                "route": "#"
+            },
+            {
+                "title": "Hotel Treats Gift Card",
+                "route": "#"
+            },
+            {
+                "title": "Golf",
+                "route": "#"
+            },
+            {
+                "title": "Offers for Local Residents",
+                "route": "#"
+            },
+            {
+                "title": "For Families",
+                "route": "#"
+            },
+            {
+                "title": "Romantic Escapes",
+                "route": "#"
+            },
+            {
+                "title": "Gift Ideas",
+                "route": "#"
+            },
+            {
+                "title": "Dining",
+                "route": "#"
+            },
+            {
+                "title": "Spa & Dining",
+                "route": "#"
+            }
+        ]
+    },
+    {
+        "name": "Locations",
+        "links": [
+            {
+                "title": "Mallorca, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Seville, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Barcelona, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Ibiza, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Madrid, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Alicante, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Malaga, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Tenerife, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Tarragona, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Girona, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Girona, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Tarragona, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Tenerife, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Malaga, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Alicante, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Madrid, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Ibiza, Spain",
+                "route": "#"
+            },
+            {
+                "title": "Barcelona, Spain",
+                "route": "#"
+            }
+        ]
+    },
+    {
+        "name": "Hotels",
+        "links": [
+            {
+                "title": "H10 Metropolitan",
+                "route": "#"
+            },
+            {
+                "title": "Anantara Villa Padierna",
+                "route": "#"
+            },
+            {
+                "title": "Fontecruz Lisboa",
+                "route": "#"
+            },
+            {
+                "title": "Hotel Treats Gift Card",
+                "route": "#"
+            },
+            {
+                "title": "Hospes Maricel & Spa",
+                "route": "#"
+            },
+            {
+                "title": "Fontecruz Lisboa",
+                "route": "#"
+            },
+            {
+                "title": "Anantara Villa Padierna",
+                "route": "#"
+            },
+            {
+                "title": "H10 Estepona Palace",
+                "route": "#"
+            },
+            {
+                "title": "H10 Estepona Palace",
+                "route": "#"
+            },
+            {
+                "title": "Anantara Villa Padierna",
+                "route": "#"
+            },
+            {
+                "title": "The St. Regis Mardavall Mall",
+                "route": "#"
+            },
+            {
+                "title": "Hospes Maricel & Spa",
+                "route": "#"
+            },
+            {
+                "title": "Hospes Maricel & Spa",
+                "route": "#"
+            },
+            {
+                "title": "The St. Regis Mardavall Mall",
+                "route": "#"
+            },
+            {
+                "title": "Hotel El Palace Barcelona",
+                "route": "#"
+            },
+            {
+                "title": "H10 Estepona Palace",
+                "route": "#"
+            },
+            {
+                "title": "H10 Estepona Palace",
+                "route": "#"
+            },
+            {
+                "title": "Hotel El Palace Barcelona",
+                "route": "#"
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <link rel="shortcut icon" href="//gavn.in/fav" type="image/x-icon">
+  <link rel="stylesheet" href="/tailwind.css">
+</head>
+
+<body>
+  <div class="font-jakarta flex flex-col min-h-screen overflow-x-hidden">
+
+    {% include '_components/Header.njk' %}
+
+
+    <main class="flex-1">
+
+
+      {{ content | safe }}
+
+    </main>
+
+
+    {% include '_components/Footer.njk' %}
+
+  </div>
+
+
+</body>
+
+</html>

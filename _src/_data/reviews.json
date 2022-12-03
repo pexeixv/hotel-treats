@@ -1,0 +1,24 @@
+[
+    {
+        "rating": "4.5",
+        "date": "April 5",
+        "title": "Very efficient and sorted out email",
+        "sub": "Very efficient and sorted out our email problem promptly.",
+        "name": "Miss Paul"
+    },
+    {
+        "rating": "5",
+        "date": "April 5",
+        "title": "Great customer service",
+        "sub": "Great customer service! My voucher run out of date and without even asking for i...",
+        "name": "Rocio"
+    },
+    {
+        "rating": "4.5",
+        "date": "April 5",
+        "title": "Spoiled for choice!",
+        "sub": "Needed something to keep my Mom busy for half a day while visiting Palma. Loads...",
+        "name": "Ellie"
+    }
+    
+]
