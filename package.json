@@ -1,12 +1,11 @@
 {
 	"scripts": {
 		"dev:11ty": "eleventy --serve",
-		"dev:tailwind": "tailwindcss -i ./_src/tailwind.css -o  ./_site/tailwind.css -w",
+		"dev:tailwind": "tailwindcss -i ./_src/tailwind.css -o  ./_site/tailwind.css -wm",
 		"dev": "run-p dev:*",
 		"build:11ty": "eleventy",
 		"build:tailwind": "tailwindcss -i ./_src/tailwind.css -o  ./_site/tailwind.css -m",
 		"build": "run-s build:*"
-		
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^1.0.2",
