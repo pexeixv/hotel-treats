@@ -1,25 +1,71 @@
+<section
+  class="m-5 overflow-hidden transition-all duration-1000 bg-center bg-no-repeat bg-cover rounded-lg lg:min-h-screen lg:m-0 lg:rounded-none"
+  id="hero" style="background-image:url('/hotel.jpg');">
 
-    <section
-    class="bg-cover bg-center bg-no-repeat bg-[url('/hotel.jpg')] lg:min-h-screen m-5 lg:m-0 rounded-lg lg:rounded-none overflow-hidden ">
+  <div class="relative w-full bg-black/60">
+    <div
+      class="container flex flex-col justify-center h-full px-5 py-32 mx-auto text-white lg:min-h-screen lg:text-center">
+      <h1 class="text-4xl font-bold lg:text-7xl">
+        Hotel Treats
+      </h1>
 
-    <div class="bg-black/60 w-full relative">
-      <div
-        class="container mx-auto px-5 py-32 h-full lg:min-h-screen flex justify-center flex-col text-white lg:text-center">
-        <h1 class="text-4xl lg:text-7xl font-bold">
-          Hotel Treats
-        </h1>
-
-        <p class="mt-2 lg:mt-4 lg:text-lg">
-          Get ready to live an unforgettable experience with Hotel Treats!
-        </p>
-      </div>
-      <div class="hidden lg:flex flex-col items-center gap-4 absolute top-1/2 -translate-y-1/2 right-12">
-        <div class="h-3 w-3 bg-neutral-50 rounded-full"></div>
-        <div class="h-3 w-3 bg-neutral-400 rounded-full"></div>
-        <div class="h-3 w-3 bg-neutral-400 rounded-full"></div>
-        <div class="h-3 w-3 bg-neutral-400 rounded-full"></div>
-      </div>
+      <p class="mt-2 lg:mt-4 lg:text-lg">
+        Get ready to live an unforgettable experience with Hotel Treats!
+      </p>
     </div>
+    <div class="absolute flex-col items-center hidden gap-4 -translate-y-1/2 lg:flex top-1/2 right-12"
+      id="heroIndicators"></div>
+  </div>
 
-  </section>
+</section>
 
+
+
+
+<script>
+
+  const images = [
+    'hotel.jpg',
+    'room.jpg',
+    'dark.jpg',
+    'pool.jpg',
+  ]
+  const dotsDiv = document.querySelector('#heroIndicators')
+
+  for (let i = 0; i < images.length; i++) {
+    dotsDiv.innerHTML += `<div class="w-3 h-3 rounded-full cursor-pointer bg-neutral-50" onclick="jumpHeroTo(${i})"></div>`
+  }
+
+
+  const hero = document.querySelector('#hero')
+  const dots = document.querySelectorAll('#heroIndicators > div')
+
+
+
+  let i = 0
+  setInterval(() => {
+    hero.style.backgroundImage = `url('/${images[i]}')`
+    dots.forEach(dot => {
+      dot.classList.remove('bg-neutral-50')
+      dot.classList.add('bg-neutral-400')
+    })
+    dots[i].classList.add('bg-neutral-50')
+    dots[i].classList.remove('bg-neutral-400')
+    if (i < images.length - 1) i++
+    else i = 0
+  }, 3000)
+
+
+  const jumpHeroTo = num => {
+    i = num
+    hero.style.backgroundImage = `url('/${images[i]}')`
+    dots.forEach(dot => {
+      dot.classList.remove('bg-neutral-50')
+      dot.classList.add('bg-neutral-400')
+    })
+    dots[i].classList.add('bg-neutral-50')
+    dots[i].classList.remove('bg-neutral-400')
+
+  }
+
+</script>

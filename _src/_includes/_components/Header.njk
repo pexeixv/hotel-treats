@@ -1,6 +1,6 @@
-<header class="w-full lg:absolute top-0 left-0 text-white z-10">
+<header class="top-0 left-0 z-10 w-full text-white lg:absolute">
 
-  <div class="container mx-auto px-5 py-5 flex items-center justify-between  relative">
+  <div class="container relative flex items-center justify-between px-5 py-5 mx-auto">
 
 
     <a href="#" class="text-black lg:text-white">
@@ -49,7 +49,7 @@
 
 
 
-      <nav class="flex items-center gap-8 lg:hidden text-black">
+      <nav class="flex items-center gap-8 text-black lg:hidden">
         <a href="/search"><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -92,10 +92,10 @@
       </nav>
 
 
-      <nav class="item-center gap-4 hidden lg:flex text-white">
+      <nav class="hidden gap-8 text-white item-center lg:flex">
 
         <div
-          class="h-full w-36 text-neutral-100 py-2 px-4  bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 rounded-full focus-visible:ring-1 focus-visible:ring-blue-400 flex items-center gap-2">
+          class="flex items-center h-full gap-2 px-4 py-2 bg-gray-100 rounded-full w-36 text-neutral-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 focus-visible:ring-1 focus-visible:ring-blue-400">
           <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M2.26607 11.1859C3.00849 12.9328 4.41444 14.3132 6.17465 15.0235C7.93486 15.7338 9.90513 15.7157 11.652 14.9733C13.3989 14.2309 14.7794 12.8249 15.4896 11.0647C16.1999 9.3045 16.1819 7.33422 15.4394 5.58733C14.697 3.84043 13.2911 2.46 11.5309 1.74972C9.77065 1.03945 7.80038 1.0575 6.05348 1.79991C4.30659 2.54233 2.92616 3.94829 2.21588 5.7085C1.5056 7.46871 1.52366 9.43898 2.26607 11.1859V11.1859Z"
@@ -103,20 +103,14 @@
             <path d="M13.9126 13.4481L19.4632 18.9996" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
               stroke-linejoin="round"></path>
           </svg>
-          <input type="text" placeholder="Search" class="bg-transparent w-full focus-visible:outline-none">
+          <input type="text" placeholder="Search" class="w-full bg-transparent focus-visible:outline-none">
         </div>
 
 
         <div
-          class="h-full  text-neutral-100 py-2 px-4  bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 rounded-full focus-visible:ring-1 focus-visible:ring-blue-400 flex items-center gap-2 cursor-pointer">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M16.0893 2.06605C15.0533 1.26989 13.8712 0.684734 12.6099 0.34375V5.5458L16.0893 2.06605ZM0.345215 7.39389C0.684603 6.13081 1.26988 4.94711 2.06751 3.91062L5.54727 7.39389H0.345215ZM17.9342 3.91062C18.7312 4.94754 19.3164 6.1311 19.6565 7.39389H14.4537L17.9342 3.91062ZM0.345215 12.6104H5.54727L2.06791 16.087C1.27183 15.052 0.686545 13.8708 0.345215 12.6104ZM3.91286 17.9328C4.94892 18.7288 6.13101 19.3139 7.39223 19.6551V14.455L3.91286 17.9328ZM3.91286 2.06605C4.94857 1.26946 6.13077 0.684267 7.39223 0.34375V5.5458L3.91286 2.06605ZM12.6091 19.6551C13.8706 19.3145 15.0528 18.7294 16.0885 17.9328L12.6091 14.4561V19.6551ZM17.9331 16.0882L14.4537 12.6116H19.6554C19.3147 13.8721 18.7295 15.0534 17.9331 16.0882Z"
-              fill="#0052B4" />
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M19.9154 8.6947H11.3043V0.0832032C10.4382 -0.0277344 9.56143 -0.0277344 8.69529 0.0832032V8.69431H0.0841804C-0.0287112 9.56111 -0.0287112 10.4389 0.0841804 11.3057H8.69529V19.9168C9.56143 20.0277 10.4382 20.0277 11.3043 19.9168V11.3057H19.9154C20.0283 10.439 20.0283 9.56137 19.9154 8.6947ZM12.6106 12.6112L17.0701 17.0722L17.658 16.4277L13.8376 12.6112H12.609H12.6106ZM2.92916 17.0722L7.39136 12.6112V13.8389L3.57097 17.6613L2.92916 17.0722ZM7.39097 7.38882L2.92916 2.92935L2.34321 3.5739L6.1636 7.39624H7.3937L7.39097 7.38882ZM17.0701 2.92935L12.609 7.38882V6.16106L16.4294 2.33872L17.0701 2.92935Z"
-              fill="#D80027" />
-          </svg>
+          class="relative flex items-center h-full gap-2 px-4 py-2 bg-gray-100 rounded-full cursor-pointer group text-neutral-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 focus-visible:ring-1 focus-visible:ring-blue-400">
+
+          <img src="/english.svg" alt="">
 
           <span>English (Spain)</span>
 
@@ -125,6 +119,29 @@
               d="M1.5 1.75L5.646 6.1C5.69245 6.14656 5.74762 6.18351 5.80837 6.20871C5.86911 6.23392 5.93423 6.24689 6 6.24689C6.06577 6.24689 6.13089 6.23392 6.19163 6.20871C6.25238 6.18351 6.30755 6.14656 6.354 6.1L10.5 1.75"
               stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
+
+          <nav
+            class="absolute right-0 z-10 flex flex-col py-4 transition-all duration-300 bg-gray-100 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto top-[110%] text-neutral-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 min-w-44">
+
+            <a href="#" class="flex items-center gap-2 px-6 py-2">
+              <img src="/english.svg" alt="">
+              <span>English&nbsp;(Spain)</span>
+            </a>
+            <a href="#" class="flex items-center gap-2 px-6 py-2">
+              <img src="/english.svg" alt="">
+              <span>English&nbsp;(UK)</span>
+            </a>
+            <a href="#" class="flex items-center gap-2 px-6 py-2">
+              <img src="/english.svg" alt="">
+              <span>Spanish</span>
+            </a>
+            <a href="#" class="flex items-center gap-2 px-6 py-2">
+              <img src="/english.svg" alt="">
+              <span>Portuguese</span>
+            </a>
+
+
+          </nav>
 
         </div>
 
@@ -172,7 +189,7 @@
           <span>Cart</span>
         </a>
 
-        <div class="flex items-center gap-1 group cursor-pointer relative">
+        <div class="relative flex items-center gap-1 cursor-pointer group">
           <span>Menu</span>
 
           <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,77 +198,51 @@
           </svg>
 
           <nav
-            class="py-6 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-300 flex flex-col absolute top-full right-0 text-neutral-100  bg-gray-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 rounded-lg z-10 min-w-44">
-
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            class="absolute right-0 z-10 flex flex-col py-6 transition-all duration-300 bg-gray-100 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto top-full text-neutral-100 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 min-w-44">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <i class="fas fa-location-dot"></i>
               <span>Top&nbsp;Locations</span>
             </a>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <i class="fas fa-hotel"></i>
               <span>Top&nbsp;Hotels</span>
             </a>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <i class="fas fa-star"></i>
               <span>Best&nbsp;Sellers</span>
             </a>
-
             <div class="h-[1px] w-full my-1 bg-neutral-500"></div>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <i class="fas fa-gift"></i>
               <span>Hotel&nbsp;Treats&nbsp;Gift&nbsp;Card</span>
             </a>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <i class="fas fa-bell-concierge"></i>
               <span>For&nbsp;Hoteliers</span>
             </a>
             <div class="h-[1px] w-full my-1 bg-neutral-500"></div>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <span>How it works</span>
             </a>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <span>FAQ</span>
             </a>
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <span>About us</span>
             </a>
-
-
-            <a href="#" class="flex items-center gap-1 py-2 px-8">
+            <a href="#" class="flex items-center gap-1 px-8 py-2">
               <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16.9199 6.11473H10.4588L8.46308 0L6.46113 6.11473L0 6.10853L5.23252 9.89147L3.23056 16L8.46308 12.2233L13.6894 16L11.6936 9.89147L16.9199 6.11473V6.11473Z"
                   fill="#00B67A" />
               </svg>
-
               <span>Trustpilot reviews</span>
             </a>
-
-
           </nav>
 
 
-
         </div>
-
-
-
       </nav>
-
-
     </div>
-
-
   </div>
-
-
-
 </header>
